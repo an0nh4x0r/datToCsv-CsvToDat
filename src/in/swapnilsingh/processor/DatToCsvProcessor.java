@@ -1,6 +1,8 @@
+package in.swapnilsingh.processor;
+
 import java.io.*;
 
-public class DatToCsv {
+public class DatToCsvProcessor {
 
     private static final String DELIMITER = "\\|";
     private static final String INPUT_FILE = "src/SomeDatFile.dat";
