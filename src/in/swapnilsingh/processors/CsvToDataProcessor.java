@@ -1,4 +1,4 @@
-package in.swapnilsingh.processor;
+package in.swapnilsingh.processors;
 
 public class CsvToDataProcessor {
 }

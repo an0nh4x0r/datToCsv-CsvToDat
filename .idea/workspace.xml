@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c934ea6-d451-4152-bad6-8ddbcbff426b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/in/swapnilsingh/helpers/DataReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/in/swapnilsingh/helpers/DataWriter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/datToCsv-CsvToDat/DatToCsv.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/datToCsv-CsvToDat/DatToCsv.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DatToCsv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DatToCsv.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datToCsv-CsvToDat/DatToCsv.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GeneratedExcelFile.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/GeneratedExcelFile.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SomeDatFile.dat" beforeDir="false" afterPath="$PROJECT_DIR$/src/SomeDatFile.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/in/swapnilsingh/processor/CsvToDataProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/in/swapnilsingh/processors/CsvToDataProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/in/swapnilsingh/processor/DatToCsvProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/in/swapnilsingh/processors/DatToCsvProcessor.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,25 +21,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DatToCsv.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/DatToCsv.java">
+      <file leaf-file-name="DatToCsvProcessor.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/in/swapnilsingh/processors/DatToCsvProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="33" lean-forward="true" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataReader.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/in/swapnilsingh/helpers/DataReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataWriter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/in/swapnilsingh/helpers/DataWriter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CsvToDataProcessor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/in/swapnilsingh/processors/CsvToDataProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="GeneratedExcelFile.csv" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GeneratedExcelFile.csv">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="SomeDatFile.dat" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SomeDatFile.dat">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="80" selection-start-line="4" selection-start-column="80" selection-end-line="4" selection-end-column="80" />
+              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -55,8 +90,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/SomeDatFile.dat" />
         <option value="$PROJECT_DIR$/src/DatToCsv.java" />
+        <option value="$PROJECT_DIR$/src/in/swapnilsingh/processor/DatToCsvProcessor.java" />
+        <option value="$PROJECT_DIR$/src/in/swapnilsingh/processors/DatToCsvProcessor.java" />
+        <option value="$PROJECT_DIR$/src/SomeDatFile.dat" />
       </list>
     </option>
   </component>
@@ -100,6 +137,26 @@
               <item name="datToCsv-CsvToDat" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="datToCsv-CsvToDat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datToCsv-CsvToDat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="swapnilsingh" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datToCsv-CsvToDat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datToCsv-CsvToDat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="swapnilsingh" type="462c0819:PsiDirectoryNode" />
+              <item name="helpers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datToCsv-CsvToDat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datToCsv-CsvToDat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="swapnilsingh" type="462c0819:PsiDirectoryNode" />
+              <item name="processors" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -126,10 +183,10 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="DatToCsv" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DatToCsv" />
+    <configuration name="DatToCsvProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="in.swapnilsingh.processors.DatToCsvProcessor" />
       <module name="datToCsv-CsvToDat" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -174,7 +231,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DatToCsv" />
+        <item itemvalue="Application.DatToCsvProcessor" />
       </list>
     </recent_temporary>
   </component>
@@ -189,26 +246,34 @@
       <option name="presentableId" value="Default" />
       <updated>1534269724137</updated>
       <workItem from="1534269725544" duration="3163000" />
-      <workItem from="1534273950150" duration="171000" />
+      <workItem from="1534273950150" duration="1088000" />
     </task>
+    <task id="LOCAL-00001" summary="Created Processor and Helper Packages.">
+      <created>1534274587218</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1534274587218</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3334000" />
+    <option name="totallyTimeSpent" value="4251000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32900944" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32900944" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
@@ -227,7 +292,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,13 +300,17 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created Processor and Helper Packages." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created Processor and Helper Packages." />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="7" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/DatToCsv.java">
+    <entry file="file://$PROJECT_DIR$/src/in/swapnilsingh/processors/DatToCsvProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
@@ -266,13 +334,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SomeDatFile.dat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="80" selection-start-line="4" selection-start-column="80" selection-end-line="4" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -281,12 +342,44 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GeneratedExcelFile.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DatToCsv.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="33" lean-forward="true" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SomeDatFile.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/in/swapnilsingh/processors/CsvToDataProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/in/swapnilsingh/helpers/DataWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/in/swapnilsingh/helpers/DataReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/in/swapnilsingh/processors/DatToCsvProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
